@@ -1,0 +1,161 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:background="#FAED7E"
+    tools:context = ".UpdateActivity"
+    android:orientation = "vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="UPDATE PRODUCT PRICE"
+        android:textColor="@color/purple_700"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product ID: "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp" />
+        <EditText
+            android:id="@+id/searchid"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:background="#FDFDFD"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-2sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="-1dp"
+            android:backgroundTint="@color/teal_200"
+            android:textColor="@color/black"
+            android:text="Retrieve" />
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RetrieveActivity"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        <TableRow android:background="#FBD04F" android:padding="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Product ID :"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/pid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:layout_weight="1" />
+        </TableRow>
+        <TableRow android:background="#FBD04F" android:padding="14dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Name : " />
+            <TextView
+                android:id="@+id/pname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </TableRow>
+        <TableRow android:background="#FBD04F" android:padding="14dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Brand :" />
+            <TextView
+                android:id="@+id/pbrand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </TableRow>
+        <TableRow android:background="#FBD04F" android:padding="14dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Description :" />
+            <TextView
+                android:id="@+id/pdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </TableRow>
+        <TableRow android:background="#FBD04F" android:padding="14dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Price :" />
+            <EditText
+                android:id="@+id/pprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </TableRow>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/black"
+            android:text="Update Price" />
+    </TableLayout>
+</LinearLayout>

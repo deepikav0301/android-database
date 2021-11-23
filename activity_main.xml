@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDDAFD"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="PRODUCT"
+        android:layout_marginTop="30sp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/purple_500"/>
+    <Button
+        android:id="@+id/create"
+        android:backgroundTint="#F143E8"
+        android:layout_width="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="60sp"
+        android:text="CREATE"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/insert"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:backgroundTint="#B544FA"
+        android:layout_width="300dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="INSERT"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    <Button
+        android:id="@+id/update"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:backgroundTint="#EF41E5"
+        android:layout_width="300dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="UPDATE"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+    <Button
+        android:id="@+id/delete"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:backgroundTint="#B544FA"
+        android:layout_width="300dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="DELETE"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+    <Button
+        android:id="@+id/retrieve"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:backgroundTint="#EF41E5"
+        android:layout_width="300dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="RETRIEVE"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+    <Button
+        android:id="@+id/retrieve_all"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:backgroundTint="#B544FA"
+        android:layout_width="300dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="RETRIEVE ALL"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+</LinearLayout>
